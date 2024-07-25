@@ -1,0 +1,37 @@
+:root{
+  --yellow: #F1C129;
+  --black: #202124;
+}
+.map{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    h1{
+      font-size: 40px;
+    }
+    span{
+      background-color: var(--yellow);
+      color: var(--black);
+    }
+    iframe{
+      border: 3px solid var(--yellow);
+      border-radius: 20px;
+    }
+  }
+  
+  @media (max-width: 712px) {
+    .map{
+      width: 100%;
+      height: 500px;
+    }
+    iframe{
+      width: 90%;
+      height: 60%;
+    }
+
+  }
