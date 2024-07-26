@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyBg0QRWXvVhKQMsM0Wti33NwhRdEgkzSEE",
   authDomain: "fastechdata-e92cd.firebaseapp.com",

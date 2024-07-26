@@ -105,13 +105,15 @@
   h4{
       font-size: 17px;
       font-weight: 500;
+      margin-top: 5px;
   }
   input{
       width: 86%;
       height: 90%;
       border: none !important;
       outline: none;
-      font-size: 16px;    
+      font-size: 16px;
+      margin-top: -5px;  
   }
 }
 
@@ -141,6 +143,7 @@
       border-radius: 100%;
   }
 }
+
 
 .btn_firebase{
   width: 100%;
@@ -701,8 +704,7 @@ transform: scaleY(1);
     height: 700px;
     display: flex;
     justify-content: center;
-
-
+    align-items: center;
   }
 
   .img_main_back{
@@ -717,7 +719,6 @@ transform: scaleY(1);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   filter: blur(0px) brightness(50%);
-  background-color: red;
 
   }
 

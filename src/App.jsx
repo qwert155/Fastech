@@ -27,19 +27,17 @@ function AppJs() {
   // Firebase
   const [inpValue1,setInpValue1]=useState('')
   const [inpValue2,setInpValue2]=useState('')
-  const [inpValue3,setInpValue3]=useState('Frontend')
-  const [inpValue4,setInpValue4]=useState('Beckend')
   
   const db = getFirestore();
   const setData = async () => {
       const docRef = await addDoc(collection(db, "myCollection"), {
         name: inpValue1,
         number: inpValue2,
-        study1: inpValue3,
-        study2: inpValue4,
+        
       });
       alert("Document written to Database");
   };
+
 
   // Bars
   const [barsActive,setBarsActive] = useState(false)
@@ -139,7 +137,7 @@ function AppJs() {
 
           <div className="inps_registr">
             <div className="first_inp">
-              <input type="text" placeholder='Name' value={inpValue1} onChange={(e) => setInpValue1(e.target.value)} />
+              <input type="text" placeholder='Имя' value={inpValue1} onChange={(e) => setInpValue1(e.target.value)} />
             </div>
 
             <div className="second_inp">
@@ -149,24 +147,23 @@ function AppJs() {
           </div>
           <div className="instrsting">
             <h3>Какие из наших курсов вас интересуют:</h3>
-
             <div className="inp_interiting">
-                <input type="checkbox"  id="" value={inpValue3} onChange={(e) => setInpValue3(e.target.value)}/>
-                <span>Fnontend</span>
+                <input type="checkbox" name="foundation"/>
+                <span>Foundation</span>
             </div>
             <div className="inp_interiting">
-              <input type="checkbox" name="" id="" value={inpValue4} onChange={(e) => setInpValue4(e.target.value)} />
+              <input type="checkbox" name="" id="" />
+              <span>Frontend</span>
+            </div>
+
+            <div className="inp_interiting">
+              <input type="checkbox" name="" id="" />
               <span>Backend</span>
             </div>
 
             <div className="inp_interiting">
               <input type="checkbox" name="" id=""  />
-              <span>Lorem, ipsum dolor.</span>
-            </div>
-
-            <div className="inp_interiting">
-              <input type="checkbox" name="" id=""  />
-              <span>Lorem, ipsum dolor.</span>
+              <span>Bepul konsultatsiya olish</span>
             </div>
           </div>
 
