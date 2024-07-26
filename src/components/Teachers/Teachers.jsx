@@ -92,6 +92,9 @@ const Teachers = () => {
         </div>
         </div>
       </div>
+      <div className="h1_carusel">
+          <h1>У нас <span className='span_teach_caruusel'>крутые  учителя</span></h1>
+      </div>
       <Carousel data-bs-theme="dark" className='carusel_teachers'>
       {/* 1 */}
       <Carousel.Item className='center_flex'>

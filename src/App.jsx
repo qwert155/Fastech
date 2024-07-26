@@ -1,6 +1,7 @@
 
 import './App.css';
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 // Icons
 import { IoMdClose } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
@@ -50,6 +51,10 @@ function AppJs() {
 
   return (
   <div className="app">
+
+      <Helmet>
+        <title>Fastech</title>
+      </Helmet>
 
       {isNavVisible ? (
     <>
