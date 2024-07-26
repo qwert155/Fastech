@@ -87,7 +87,7 @@ function AppJs() {
             <Link to="hero_fasteck" smooth={true} duration={50}>Проэкты</Link>
             </li>
             <li>
-            <Link to="map" smooth={true} duration={50}>Федиал</Link>
+            <Link to="map" smooth={true} duration={50}>Адрес</Link>
             </li>
           </ul>
           </div>
@@ -108,6 +108,7 @@ function AppJs() {
         </div>
       </nav>
       <Bars active={barsActive} setActive={setBarsActive} />
+
       <div className='main_box'>
         <div className="img_main_back">
           
