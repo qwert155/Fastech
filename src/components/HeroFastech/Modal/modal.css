@@ -169,6 +169,12 @@
       }
     }
   }
+  @media (max-width: 384px) {
+    .modal_content{
+      width: 90%;
+      height: 70%;  
+    }
+  }
   @media (max-width: 380px) {
     .modal_content{
       width: 90%;
@@ -185,6 +191,15 @@
     .modal_content{
       width: 90%;
       height: 70%;  
+      h2{
+        font-size: 12px;
+      }
+    }
+  }
+  @media (max-width: 354px) {
+    .modal_content{
+      width: 90%;
+      height: 85%;  
       h2{
         font-size: 12px;
       }
