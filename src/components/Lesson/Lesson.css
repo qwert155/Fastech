@@ -1,4 +1,3 @@
-
 .lesson{
     width: 100%;
     height: 800px;
@@ -13,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     span{
         background-color: var(--yellow);
     }
@@ -40,6 +38,7 @@
 
     .h2_box{
         font-size: 25px;
+        font-weight: 600;
     }
         img{
             width: 100%;
@@ -49,10 +48,29 @@
             width: 90%;
             background-color: var(--black);
         }
-
 }
 
-
+@media (max-width: 1346px) {
+    .lesson{
+        width: 100%;
+        height: 800px;
+        .txt_lesson{
+            width: 100%;
+            height: 10%;
+        }
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .first_box_lesson{
+            width: 30%;
+            height: 75%;
+        }
+    }
+  }
   @media (max-width: 1280px) {
     .lesson{
         width: 100%;
@@ -97,14 +115,14 @@
         }
     }
   }
-  @media (max-width: 820px) {
+  @media (max-width: 828px) {
     .lesson{
         width: 100%;
-        height: 1950px;
+        height: 1600px;
         flex-direction: column;
         .box_lesson{
             width: 100%;
-            height: 900%;
+            height: 90%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -113,6 +131,53 @@
         .first_box_lesson{
             width: 100%;
             height: 50%;
+            hr{
+                width: 60%;
+            }
+        }
+    }
+  }
+  @media (max-width: 820px) {
+    .lesson{
+        width: 100%;
+        height: 1600px;
+        flex-direction: column;
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 50%;
+            hr{
+                width: 60%;
+            }
+        }
+    }
+  }
+  @media (max-width: 780px) {
+    .lesson{
+        width: 100%;
+        height: 1600px;
+        flex-direction: column;
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 50%;
+            hr{
+                width: 60%;
+            }
         }
     }
   }
@@ -138,6 +203,28 @@
         }
     }
   }
+  @media (max-width: 768px) {
+    .lesson{
+        width: 100%;
+        height: 1500px;
+        flex-direction: column;
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 30%;
+            hr{
+                width: 60%;
+            }
+        }
+    }
+  }
   @media (max-width: 712px) {
     .lesson{
         width: 100%;
@@ -154,6 +241,25 @@
         .first_box_lesson{
             width: 100%;
             height: 50%;
+        }
+    }
+  }
+  @media (max-width: 686px) {
+    .lesson{
+        width: 100%;
+        height: 1300px;
+        flex-direction: column;
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 30%;
         }
     }
   }
@@ -177,6 +283,39 @@
         .first_box_lesson{
             width: 100%;
             height: 30%;
+        }
+    }
+  }
+  @media (max-width: 364px) {
+    .lesson{
+        width: 100%;
+        height: 1450px;
+        flex-direction: column;
+        .txt_lesson{
+            width: 100%;
+            height: 10%;
+        }
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-items: center;
+            align-items: center;           
+            .h2_box{
+                width: 100%;
+                font-size: 23px;
+                display: flex;
+                justify-items: center;
+                align-items: center; 
+            }
         }
     }
   }

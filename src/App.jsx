@@ -1,7 +1,5 @@
-
 import './App.css';
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
 // Icons
 import { IoMdClose } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
@@ -28,17 +26,15 @@ function AppJs() {
   // Firebase
   const [inpValue1,setInpValue1]=useState('')
   const [inpValue2,setInpValue2]=useState('')
-  
+
   const db = getFirestore();
   const setData = async () => {
       const docRef = await addDoc(collection(db, "myCollection"), {
         name: inpValue1,
         number: inpValue2,
-        
       });
-      alert("Document written to Database");
-  };
-
+      alert("Ваши данные отправлены")
+    };
 
   // Bars
   const [barsActive,setBarsActive] = useState(false)
@@ -51,10 +47,6 @@ function AppJs() {
 
   return (
   <div className="app">
-
-      <Helmet>
-        <title>Fastech</title>
-      </Helmet>
 
       {isNavVisible ? (
     <>
@@ -96,7 +88,6 @@ function AppJs() {
           <div className="icon_phone" onClick={handleToggle}>
           <FaPhone className='phone_ic'/>
           </div>
-          
           <div className="txt_phone">
             <span>+998 78 777-33-22</span>
           </div>
@@ -104,17 +95,15 @@ function AppJs() {
           <div onClick={() => setBarsActive(true)} className="media_bars">
               <FaBars/>
           </div>
-
         </div>
       </nav>
       <Bars active={barsActive} setActive={setBarsActive} />
-
       <div className='main_box'>
         <div className="img_main_back">
           
         </div>
         <div className="first_main_box">
-        <h1>Станьте <span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
+        <h1>Станьте<span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
         <button onClick={handleToggle} className='btn_main'><span>Я хочу изучать IT</span></button>
         </div>
       </div>
@@ -127,7 +116,6 @@ function AppJs() {
       <HeroFastech/> 
       <Map />
       <SocialMedia />
-
     </> 
       ) : (
   <>
@@ -140,15 +128,13 @@ function AppJs() {
           <div className="txt_regist">
             <h1>Оставьте свой контакт для получения дополнительной информации</h1>
           </div>
-
           <div className="inps_registr">
             <div className="first_inp">
               <input type="text" placeholder='Имя' value={inpValue1} onChange={(e) => setInpValue1(e.target.value)} />
             </div>
-
             <div className="second_inp">
                 <h4>+998</h4>
-                <input type="text" placeholder='(00)000-00-00' value={inpValue2} onChange={(e) => setInpValue2(e.target.value)}/>
+                <input type="number" placeholder='(00)000-00-00' value={inpValue2} onChange={(e) => setInpValue2(e.target.value)}/>
             </div>
           </div>
           <div className="instrsting">
@@ -161,7 +147,6 @@ function AppJs() {
               <input type="checkbox" name="" id="" />
               <span>Frontend</span>
             </div>
-
             <div className="inp_interiting">
               <input type="checkbox" name="" id="" />
               <span>Backend</span>
@@ -172,7 +157,6 @@ function AppJs() {
               <span>Bepul konsultatsiya olish</span>
             </div>
           </div>
-
           <div className="btn_firebase">
               <button onClick={setData} className='btn_main_regisor'><span>Отправить</span></button>
           </div>

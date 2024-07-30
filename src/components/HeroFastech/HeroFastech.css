@@ -7,7 +7,7 @@
   }
   
   .img_hero{  
-    width: 60%;
+    width: 65%;
     height: 740px;
     display: flex;
     justify-content: center;
@@ -166,6 +166,54 @@
     }
   }
 
+  @media (max-width: 1639px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+
+      .img_hero{
+        width: 75%;
+      }
+      .second_hero{
+        width: 40%;
+      }
+  }
+}
+@media (max-width: 1291px) {
+  .hero_fasteck{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img_hero{
+      width: 95%;
+      height: 80%;
+      background-size: 100% 100%;
+    }
+
+    .first_hero{
+      width: 30%;
+      height: 100%;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h1{
+        text-align: start;
+      }
+    }
+    .second_hero{
+      width: 60%;
+      height: 100%;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
   @media (max-width: 1280px) {
     .hero_fasteck{
       width: 100%;
@@ -260,7 +308,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-  
         h1{
           text-align: start;
         }
@@ -273,11 +320,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-
+        .mini_second_hero{
+          height: 50%;
+          h2{
+            font-size: 25px;
+          }
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 860px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img_hero{
+        width: 97%;
+        height: 70%;
+        background-size: 100% 100%;
+      }
+      .second_hero{
+        width: 50%;
+        height: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
   
         .mini_second_hero{
-          height: 60%;
+          width: 100%;
+          height: 90%;
         }
       }
   
@@ -362,7 +436,108 @@
         align-items: center;
   
         .mini_second_hero{
+          width: 60%;
           height: 76%;
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 818px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 90%;
+        height: 80%;
+        background-size: 100% 100%;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 30%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        h1{
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mini_second_hero{
+          width: 60%;
+          height: 76%;
+
+          .first_hig_hero{
+            width: 80%;
+
+          }
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 816px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 90%;
+        height: 80%;
+        background-size: 100% 100%;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 30%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+        h1{
+          font-size: 30px;
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 90%;
+        height: 55%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mini_second_hero{
+          width: 55%;
+          height: 76%;
+          .first_hig_hero{
+            width: 75%;
+            h2{
+              font-size: 23px;
+            }
+          }
+          .second_hig_hero{
+            width: 25%;
+          }
         }
       }
   
@@ -447,6 +622,181 @@
   
         .mini_second_hero{
           /* display: ; */
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 707px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 90%;
+        height: 90%;
+        background-size: 100% 100%;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 30%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+        h1{
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+    }
+  }
+  @media (max-width: 700px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 90%;
+        height: 90%;
+        background-size: 100% 100%;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 30%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+        h1{
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+    }
+  }
+  @media (max-width: 605px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 100%;
+        height: 90%;
+        background-size: 100% 100%;
+      }
+      .first_hero{
+        width: 100%;
+        height: 30%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+        h1{
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .mini_second_hero{
+          width: 70%;
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 594px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 90%;
+        height: 90%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .first_hero{
+        width: 100%;
+        height: 50%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        h1{
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 80%;
+        height: 80%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+  
+        .mini_second_hero{
+          width: 90%;
+          height: 70%;
+          .first_hig_hero{
+            width: 80%;
+            height: 100%;
+            h2{
+              font-size: 25px;
+            }
+          }
+          .second_hig_hero{
+            width: 20%;
+            height: 100%;
+          }
+          .plus_btn{
+            width: 40px;
+            height: 40px;
+          }
         }
       }
   
@@ -554,6 +904,128 @@
             h2{
               font-size: 20px;
             }
+          }
+          .plus_btn{
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 484px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 50%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+  
+        h1{
+  
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 80%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+  
+        .mini_second_hero{
+          width: 90%;
+          height: 70%;
+          .first_hig_hero{
+            width: 80%;
+            height: 100%;
+            h2{
+              font-size: 25px;
+            }
+          }
+          .second_hig_hero{
+            width: 20%; 
+          }
+          .plus_btn{
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+  
+    }
+  }
+  @media (max-width: 442px) {
+    .hero_fasteck{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_hero{
+        width: 100%;
+        height: 100%;
+        background-size: 300% 100%;
+        background-repeat: no-repeat;
+      }
+  
+      .first_hero{
+        width: 100%;
+        height: 50%;
+  
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+  
+  
+        h1{
+  
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+      .second_hero{
+        width: 100%;
+        height: 80%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+  
+        .mini_second_hero{
+          width: 90%;
+          height: 70%;
+          .first_hig_hero{
+            width: 70%;
+            height: 100%;
+            h2{
+              font-size: 20px;
+            }
+          }
+          .second_hig_hero{
+            width: 30%; 
           }
           .plus_btn{
             width: 40px;

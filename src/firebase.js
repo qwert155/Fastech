@@ -12,5 +12,5 @@ const firebaseConfig = {
 };
 
 
-const fire = initializeApp(firebaseConfig);
-const analytics = getAnalytics(fire);
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

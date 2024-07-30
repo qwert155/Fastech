@@ -567,6 +567,32 @@
         }
     }
   }
+  @media (max-width: 605px) {
+    .first{
+        padding: 0;
+    }
+    .txt_box_gua{
+        width: 100%;
+        
+        h1{
+            width: 300px;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .first_btn,.second_btn,.teeth_btn{
+        .first_btn_gua ,.second_btn_gua,.teerth_btn_gua{
+            width: 70px;
+            height: 70px;
+        }
+        h2{
+            width: 400px;
+        }
+        p{
+            font-size: 19px;
+        }
+    }
+  }
   @media (max-width: 540px) {
     .guarantee{
         width: 100%;

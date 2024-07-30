@@ -198,6 +198,251 @@
       }
     }
   }
+  @media (max-width: 605px) {
+    .main_red{
+      h1{
+        width: 400px;
+      }
+      .red_1,.red_5,.red_6{
+        width: 200px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 174px;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_3,.red_4{
+        height: 312px;
+        width: 275px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+  
+      }
+    }
+  }
+  @media (max-width: 572px) {
+    .main_red{
+      h1{
+        width: 400px;
+      }
+      .red_1{
+        width: 120px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_5{
+        width: 140px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_6{
+        width: 220px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 145px;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_4{
+        width: 210px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      .red_3{
+        width: 200px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        } 
+      }
+    }
+  }
+  @media (max-width: 566px) {
+    .main_red{
+      h1{
+        width: 400px;
+      }
+      .red_1{
+        width: 120px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_5{
+        width: 140px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_6{
+        width: 220px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 145px;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_4{
+        width: 210px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      .red_3{
+        width: 200px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        } 
+      }
+    }
+  }
+  @media (max-width: 555px) {
+    .main_red{
+      h1{
+        width: 400px;
+      }
+      .red_1{
+        width: 120px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_5{
+        width: 140px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_6{
+        width: 220px;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 145px;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_4{
+        width: 210px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      .red_3{
+        width: 200px;
+        height: 312px;
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        } 
+      }
+    }
+  }
   @media (max-width: 540px) {
     .main_red{
   
@@ -265,6 +510,126 @@
           font-size: 14px;
           font-weight: 600;
         } 
+      }
+    }
+  }
+  @media (max-width: 462px) {
+    .main_red{
+    height: 1500px;
+  
+      h1{
+        width: 300px;
+        font-size: 17px;
+      }
+      .fir_red{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+      }
+      .second_red{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+      }
+      .red_1,.red_5,.red_6{
+        width: 100%;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 100%;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_3,.red_4{
+        height: 312px;
+        width: 100%;
+  
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+  
+      }
+    }
+  }
+  @media (max-width: 445px) {
+    .main_red{
+    height: 1500px;
+  
+      h1{
+        width: 300px;
+        font-size: 17px;
+      }
+      .fir_red{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+      }
+      .second_red{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+      }
+      .red_1,.red_5,.red_6{
+        width: 100%;
+        height: 312px;
+        h2{
+          font-size: 16px;
+        }
+        span{
+          width: 200px;
+        }
+      }
+      .red_2{
+        width: 100%;
+        height: 312px;
+  
+        h2{
+          font-size: 20px;
+        }
+      }
+      .red_3,.red_4{
+        height: 312px;
+        width: 100%;
+  
+        h2{
+          font-size: 20px;
+        }
+        span{
+          width: 200px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+  
       }
     }
   }

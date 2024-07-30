@@ -3,10 +3,10 @@ import './Lesson.css'
 const Lesson = () => {
   return (
     <div className="lesson">
-            <div className="txt_lesson">
-              <h1>Наши <span>курсы</span></h1>
-            </div>
-            <div className="box_lesson">
+      <div className="txt_lesson">
+        <h1>Наши <span>курсы</span></h1>
+      </div>
+      <div className="box_lesson">
               <div className="first_box_lesson">
                 <img src="https://static.tildacdn.one/tild3335-6231-4765-b331-653232316637/startup_company_rock.svg" alt="" />
                 <h2>Foundation</h2>
@@ -42,9 +42,7 @@ const Lesson = () => {
                 <h2>Дни : 3 дня в неделю</h2>
                 <hr />
                 </div>
-              </div>
-
-              
+      </div>
     </div>
   )
 }
