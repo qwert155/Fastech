@@ -21,7 +21,7 @@ import SocialMedia from './components/SocialMedia/SocialMedia.jsx';
 import MainRed from './components/MainRed/MainRed.jsx';
 import HeroFastech from './components/HeroFastech/HeroFastech.jsx';
 import Lesson from './components/Lesson/Lesson.jsx';
-function AppJs() {
+function App() {
 
   // Firebase
   const [inpValue1,setInpValue1]=useState('')
@@ -171,4 +171,4 @@ function AppJs() {
   );
 }
 
-export default AppJs;
+export default App;
