@@ -19,7 +19,7 @@ const Lesson = () => {
                 <hr />
               </div>
               <div className="first_box_lesson">
-                <img src="https://static.tildacdn.one/tild3335-6231-4765-b331-653232316637/startup_company_rock.svg" alt="" />
+                <img src="	https://static.tildacdn.one/tild3132-3838-4965-b738-356239383834/research_eye_browser.svg" alt="" />
                 <h2>Frontend</h2>
                 <hr />
                 <h2 className='h2_box'>Продолжительность: 8 месяцев</h2>
@@ -32,7 +32,7 @@ const Lesson = () => {
 
               </div>
               <div className="first_box_lesson">
-                <img src="https://static.tildacdn.one/tild3335-6231-4765-b331-653232316637/startup_company_rock.svg" alt="" />
+                <img src="https://static.tildacdn.one/tild3336-6333-4931-b638-346365663434/tech_tuning_support.svg" alt="" />
                 <h2>Backend</h2>
                 <hr />
                 <h2 className='h2_box'>Продолжительность: 8 месяцов</h2>

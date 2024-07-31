@@ -45,6 +45,10 @@ function AppJs() {
     setIsNavVisible(!isNavVisible);
   };
 
+  const handleClick = () => {
+    window.location.href = "tel:+12345678";
+  };
+
   return (
   <div className="app">
 
@@ -116,6 +120,7 @@ function AppJs() {
       <HeroFastech/> 
       <Map />
       <SocialMedia />
+      <button onClick={handleClick}>Click</button>
     </> 
       ) : (
   <>
