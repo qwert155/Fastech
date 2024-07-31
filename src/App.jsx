@@ -104,7 +104,7 @@ function App() {
           
         </div>
         <div className="first_main_box">
-        <h1>Станьте?<span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
+        <h1>Станьте<span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
         <button onClick={handleToggle} className='btn_main'><span>Я хочу изучать IT</span></button>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Teachers = () => {
           </div>
           <div className="hight_teach">
             <div className="img_back">
-            <img src="https://static.vecteezy.com/system/resources/previews/025/003/295/original/3d-cute-cartoon-male-teacher-character-on-transparent-background-generative-ai-png.png" alt="" />
+              <img src="https://static.vecteezy.com/system/resources/previews/025/003/295/original/3d-cute-cartoon-male-teacher-character-on-transparent-background-generative-ai-png.png" alt="" />
             </div>
           </div>
           <div className="down_teach">
