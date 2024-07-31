@@ -15,12 +15,13 @@ import Bars from './Bars/Bars.jsx';
 import Video from './components/Video/Video.jsx';
 import HeroPlus from './components/HeroPlus/HeroPlus.jsx';
 import Guarantee from './components/Guarantee/Guarantee.jsx';
-import Teachers from './components/Teachers/Teachers.jsx';
+import Teachers from './components/Teachers/Teachers.jsx'
 import Map from './components/Map/Map.jsx'
 import SocialMedia from './components/SocialMedia/SocialMedia.jsx';
 import MainRed from './components/MainRed/MainRed.jsx';
 import HeroFastech from './components/HeroFastech/HeroFastech.jsx';
 import Lesson from './components/Lesson/Lesson.jsx';
+
 function App() {
 
   // Firebase
@@ -45,11 +46,10 @@ function App() {
     setIsNavVisible(!isNavVisible);
   };
 
-
   return (
   <div className="app">
 
-      {isNavVisible ? (
+    {isNavVisible ? (
     <>
       <nav>
         <div className="box_img">
@@ -104,7 +104,7 @@ function App() {
           
         </div>
         <div className="first_main_box">
-        <h1>Станьте<span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
+        <h1>Станьте?<span className='span_h1'>востребованным</span> и прибыльным профессионалом за 8 месяцев</h1> 
         <button onClick={handleToggle} className='btn_main'><span>Я хочу изучать IT</span></button>
         </div>
       </div>
@@ -164,7 +164,6 @@ function App() {
       </div>
     </section>
   </>
-
       )}
   </div>
 
