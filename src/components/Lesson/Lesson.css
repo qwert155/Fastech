@@ -228,11 +228,30 @@
   @media (max-width: 712px) {
     .lesson{
         width: 100%;
-        height: 1950px;
+        height: 1800px;
         flex-direction: column;
         .box_lesson{
             width: 100%;
-            height: 900%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 50%;
+        }
+    }
+  }
+  @media (max-width: 709px) {
+    .lesson{
+        width: 100%;
+        height: 1800px;
+        flex-direction: column;
+        .box_lesson{
+            width: 100%;
+            height: 80%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -286,6 +305,36 @@
         }
     }
   }
+  @media (max-width: 367px) {
+    .lesson{
+        width: 100%;
+        height: 1450px;
+        flex-direction: column;
+        .txt_lesson{
+            width: 100%;
+            height: 10%;
+        }
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-items: center;
+            align-items: center;           
+            .h2_box{
+                width: 100%;
+                font-size: 21px;
+            }
+        }
+    }
+  }
   @media (max-width: 364px) {
     .lesson{
         width: 100%;
@@ -315,6 +364,36 @@
                 display: flex;
                 justify-items: center;
                 align-items: center; 
+            }
+        }
+    }
+  }
+  @media (max-width: 337px) {
+    .lesson{
+        width: 100%;
+        height: 1450px;
+        flex-direction: column;
+        .txt_lesson{
+            width: 100%;
+            height: 10%;
+        }
+        .box_lesson{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first_box_lesson{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-items: center;
+            align-items: center;           
+            .h2_box{
+                width: 100%;
+                font-size: 21px;
             }
         }
     }

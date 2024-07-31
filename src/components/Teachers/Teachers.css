@@ -126,11 +126,11 @@
   .down_teach{
     width: 100%;
     height: 15%;
-  
     display: flex;
     justify-content: center;
   
   }
+  
   @media (max-width: 1024px) {
     .teachers{
       display: none;

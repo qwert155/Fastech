@@ -33,7 +33,7 @@ function AppJs() {
         name: inpValue1,
         number: inpValue2,
       });
-      alert("Ваши данные отправлены")
+      alert("Ваши данные отправлены !")
     };
 
   // Bars
