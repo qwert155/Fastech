@@ -15,8 +15,8 @@ import Bars from './Bars/Bars.jsx';
 import Video from './components/Video/Video.jsx';
 import HeroPlus from './components/HeroPlus/HeroPlus.jsx';
 import Guarantee from './components/Guarantee/Guarantee.jsx';
-import Teachers from './components/Teachers/Teachers.jsx'
-import Map from './components/Map/Map.jsx'
+import Teachers from './components/Teachers/Teachers.jsx';
+import Map from './components/Map/Map.jsx';
 import SocialMedia from './components/SocialMedia/SocialMedia.jsx';
 import MainRed from './components/MainRed/MainRed.jsx';
 import HeroFastech from './components/HeroFastech/HeroFastech.jsx';

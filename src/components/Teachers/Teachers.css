@@ -112,12 +112,15 @@
     .img_back{
       width: 80%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: end;
       background-color: var(--yellow);
-    }
-    img{
-      width: 10%;
-      height: 10%;
-      object-fit: cover;
+      img{
+        width: 40%;
+        height: 40%;
+        object-fit: cover;
+      }
     }
   }
   
