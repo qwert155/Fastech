@@ -28,8 +28,6 @@ const Lesson = () => {
                 <hr />
                 <h2>Дни : 3 дня в неделю</h2>
                 <hr />
-
-
               </div>
               <div className="first_box_lesson">
                 <img src="https://static.tildacdn.one/tild3336-6333-4931-b638-346365663434/tech_tuning_support.svg" alt="" />

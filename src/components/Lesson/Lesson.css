@@ -38,8 +38,8 @@
     flex-direction: column;
     overflow: hidden;
         img{
-            width: 35%;
-            height: 35%;
+            width: 30%;
+            height: 30%;
         }
         hr{
             width: 90%;
