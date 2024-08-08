@@ -258,17 +258,18 @@
       align-items: center;
       .img_hero{
         width: 97%;
-        height: 70%;
+        height: 90%;
         background-size: 100% 100%;
       }
   
       .first_hero{
         width: 40%;
-        height: 100%;
+        height: 50%;
         border-radius: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+
   
         h1{
           text-align: start;

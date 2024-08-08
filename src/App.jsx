@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { IoMdClose } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
+import { FaCaretUp } from "react-icons/fa6";
 // Scrool Nav
 import { Link, animateScroll as scroll } from 'react-scroll';
 // Firebase Nav Registor
@@ -21,6 +22,7 @@ import SocialMedia from './components/SocialMedia/SocialMedia.jsx';
 import MainRed from './components/MainRed/MainRed.jsx';
 import HeroFastech from './components/HeroFastech/HeroFastech.jsx';
 import Lesson from './components/Lesson/Lesson.jsx';
+import Successful from './components/successful/Successful.jsx';
 
 function App() {
 
@@ -46,12 +48,15 @@ function App() {
     setIsNavVisible(!isNavVisible);
   };
 
+    const handleClick = () => {
+      window.location.href = "tel:+998 78 777-33-22";
+    };
   return (
   <div className="app">
 
     {isNavVisible ? (
     <>
-      <nav>
+      <nav className='nav'>
         <div className="box_img">
           <div className="img_nav">
           <img src="https://optim.tildacdn.one/tild6165-6431-4963-b039-633233343630/-/cover/201x55/center/center/-/format/webp/Fastech_IT_Academy_L.png" alt="" />
@@ -77,6 +82,9 @@ function App() {
             <Link to="main_red" smooth={true} duration={50}>IT-академия</Link>
             </li>
             <li>
+            <Link to="our_succes" smooth={true} duration={50}>Достижения</Link>
+            </li>
+            <li>
             <Link to="hero_fasteck" smooth={true} duration={50}>Проэкты</Link>
             </li>
             <li>
@@ -86,8 +94,8 @@ function App() {
           </div>
         </div>
         <div className="box_phone">
-          <div className="icon_phone" onClick={handleToggle}>
-          <FaPhone className='phone_ic'/>
+          <div className="icon_phone" onClick={handleClick}>
+              <FaPhone className='phone_ic'/>
           </div>
           <div className="txt_phone">
             <span>+998 78 777-33-22</span>
@@ -114,9 +122,16 @@ function App() {
       <Guarantee/>
       <Teachers/>
       <MainRed/> 
+      <Successful />
       <HeroFastech/> 
       <Map />
       <SocialMedia />
+      <Link to="nav" smooth={true} duration={50}>
+        <div className="phone_click">
+          <FaCaretUp />
+        </div>
+      </Link>
+      
     </> 
       ) : (
   <>
