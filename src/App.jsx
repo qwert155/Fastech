@@ -49,7 +49,7 @@ function App() {
   };
 
     const handleClick = () => {
-      window.location.href = "tel:787773322";
+      window.location.href = "tel:+998787773322";
     };
   return (
   <div className="app">
